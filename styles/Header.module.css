@@ -1,0 +1,16 @@
+
+
+.header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header ul li a{
+    transition: all 300ms ;
+    display: inline-block;
+}
+.header ul li a:hover{
+    transform: scale(1.1);
+}
